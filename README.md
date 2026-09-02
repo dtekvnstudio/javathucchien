@@ -2,6 +2,8 @@
 
 Khóa học Java **thực chiến** – học viên **đóng vai Backend Developer** trong dự án **ShopVN**, nhận task và phát triển theo quy trình dự án thật.
 
+**GitHub:** https://github.com/dtekvnstudio/javathucchien
+
 > **Điều kiện tiên quyết:** Học viên đã nắm Java cơ bản (OOP, Collection, Exception, Maven cơ bản).
 
 ---
@@ -29,7 +31,7 @@ Requirements → Design → API Tasks → Test
 4. Vào [Sprint Board](docs/sprints/README.md) → chọn Sprint → đọc Requirements → làm Task
 
 ```bash
-git clone <URL_REPO>
+git clone https://github.com/dtekvnstudio/javathucchien.git
 cd javathucchien
 git checkout day-01
 ```
@@ -92,7 +94,8 @@ Video = buổi **Tech Lead walkthrough**: giải thích Requirements, Design và
 
 ## Liên hệ & Hỗ trợ
 
-- **Group học viên:** _(cập nhật link Zalo/Facebook)_
+- **Zalo:** 0368708845
+- **Email:** dtekvn.studio@gmail.com
 - **Kênh YouTube:** _(cập nhật link playlist)_
 
 ---

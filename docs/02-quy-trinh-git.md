@@ -2,6 +2,8 @@
 
 Tài liệu mô tả cách giảng viên push code và cách học viên theo dõi từng buổi học.
 
+**Repo:** https://github.com/dtekvnstudio/javathucchien
+
 ---
 
 ## 1. Cấu trúc branch
@@ -55,7 +57,7 @@ git push origin develop --tags
 ### Lần đầu clone
 
 ```bash
-git clone <URL_REPO>
+git clone https://github.com/dtekvnstudio/javathucchien.git
 cd javathucchien
 ```
 

@@ -5,6 +5,8 @@ Tài liệu này hướng dẫn học viên chuẩn bị môi trường trước
 > **Phạm vi:** Chỉ cài tool và verify (`java -version`, `docker --version`...). **Chưa** chạy `docker compose up` hay `mvn spring-boot:run` — chưa có code cho đến Tập 03 / Day 01.
 >
 > **Video Tập 02:** Tạo bằng Google NotebookLM + clip demo **JDK + Maven**. IntelliJ, Docker, Git, Bruno — tự cài theo tài liệu này. Git workflow xem trên YouTube.
+>
+> **Repo:** https://github.com/dtekvnstudio/javathucchien
 
 > **Thứ tự khuyến nghị:** Cài **AI trước** → dùng AI hướng dẫn cài JDK, Maven, Docker, Git... phía sau.
 
@@ -241,10 +243,12 @@ Collection API từ repo sẽ có sau Day 05 (thư mục `bruno/` — mở folde
 
 ## 9. Clone repository
 
+Repo public: **https://github.com/dtekvnstudio/javathucchien**
+
 Sau khi Git đã cài:
 
 ```bash
-git clone <URL_REPO>
+git clone https://github.com/dtekvnstudio/javathucchien.git
 cd javathucchien
 git fetch --tags
 git checkout day-01

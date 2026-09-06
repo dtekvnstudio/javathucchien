@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: shopvn-postgres
+    environment:
+      POSTGRES_DB: shopvn
+      POSTGRES_USER: shopvn
+      POSTGRES_PASSWORD: shopvn123
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

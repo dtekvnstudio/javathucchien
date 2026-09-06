@@ -15,8 +15,9 @@ Mỗi Sprint bạn nhận task từ Tech Lead và làm theo **4 bước**:
 ```
 Requirements → Design → API Tasks → Test
      ↓            ↓          ↓         ↓
-  PO giao     Tech Lead   Dev code   Dev verify
-  (đọc)       (review)    (làm)      (pass)
+  PO giao     Dev viết    Dev code   Dev verify
+  (đọc)       Design+TL   (làm)      (pass)
+              review
 ```
 
 👉 Chi tiết: [Quy trình làm việc Dev](docs/03-quy-trinh-lam-viec-dev.md)
@@ -54,7 +55,7 @@ Mỗi Sprint gồm 4 file:
 | File | Vai trò | Dev làm gì |
 |------|---------|------------|
 | `01-requirements.md` | PO | **Đọc** – hiểu yêu cầu |
-| `02-design.md` | Tech Lead | **Review** – hiểu thiết kế |
+| `02-design.md` | Dev (học viên) | **Viết** thiết kế → Tech Lead review · file trong repo = tham chiếu |
 | `03-api-tasks.md` | Tech Lead | **Implement** – pick task & code |
 | `04-test.md` | QA | **Verify** – chạy test case |
 

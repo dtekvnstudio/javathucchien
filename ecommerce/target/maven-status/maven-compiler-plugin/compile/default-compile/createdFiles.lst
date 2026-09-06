@@ -1,0 +1,5 @@
+com/shop/model/Category.class
+com/shop/EcommerceApplication.class
+com/shop/model/Product.class
+com/shop/repository/ProductRepository.class
+com/shop/repository/CategoryRepository.class

@@ -9,7 +9,7 @@ Dự án **ShopVN** là nền tảng thương mại điện tử xây dựng b�
 | Bước | Tài liệu | Vai trò |
 |------|----------|---------|
 | 1. Requirements | `sprints/sprint-XX/01-requirements.md` | PO giao → Dev đọc |
-| 2. Design | `sprints/sprint-XX/02-design.md` | Tech Lead thiết kế → Dev review |
+| 2. Design | `sprints/sprint-XX/02-design.md` | **Dev thiết kế** → Tech Lead review |
 | 3. API Tasks | `sprints/sprint-XX/03-api-tasks.md` | **Dev implement** |
 | 4. Test | `sprints/sprint-XX/04-test.md` | Dev/QA verify |
 

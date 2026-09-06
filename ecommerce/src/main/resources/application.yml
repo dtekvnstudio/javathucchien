@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: shopvn
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/shopvn
+    username: shopvn
+    password: shopvn123
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+server:
+  port: 8080

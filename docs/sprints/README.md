@@ -9,8 +9,8 @@ Mỗi Sprint = một module/feature. Mỗi Sprint có **4 tài liệu** theo quy
 | Bước | File | Ai viết | Ai làm |
 |------|------|---------|--------|
 | 1 | `01-requirements.md` | PO (Giảng viên) | Dev đọc & hiểu |
-| 2 | `02-design.md` | Tech Lead | Dev review |
-| 3 | `03-api-tasks.md` | Tech Lead | **Dev implement** |
+| 2 | `02-design.md` | **Dev (học viên)** | Tech Lead **review** · `02-design.md` = tham chiếu/đáp án |
+| 3 | `03-api-tasks.md` | Dev break task | **Dev implement** |
 | 4 | `04-test.md` | QA spec | **Dev/QA verify** |
 
 👉 Chi tiết quy trình: [03-quy-trinh-lam-viec-dev.md](../03-quy-trinh-lam-viec-dev.md)

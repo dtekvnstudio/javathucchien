@@ -9,9 +9,9 @@ Học viên **đóng vai Backend Developer** trong team dự án **ShopVN**. M�
 | Vai trò | Người đảm nhiệm | Trách nhiệm |
 |---------|-----------------|-------------|
 | **Product Owner (PO)** | Giảng viên | Viết Requirements, ưu tiên feature |
-| **Tech Lead / Architect** | Giảng viên | Thiết kế (Design), review code |
-| **Backend Developer** | **Học viên** | Implement API, viết test |
-| **QA** | Học viên (tự test) | Chạy test case, báo bug |
+| **Tech Lead / Architect** | Giảng viên | **Review** Design, review code |
+| **Backend Developer** | **Học viên** | Đọc spec, **viết Design**, break task, code, tự test |
+| **QA** | Học viên | Verify theo test case |
 
 ---
 
@@ -22,8 +22,8 @@ Học viên **đóng vai Backend Developer** trong team dự án **ShopVN**. M�
 │ 1. REQUIRE  │ →  │ 2. DESIGN   │ →  │ 3. API      │ →  │ 4. TEST     │
 │   MENTS     │    │             │    │   TASKS     │    │             │
 └─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
- PO giao spec      Tech Lead thiết kế   Dev code API       Dev/QA verify
- Học viên đọc      Học viên review     Học viên làm       Pass → Done
+ PO giao spec      Học viên thiết kế    Dev code API       Dev/QA verify
+ Học viên đọc      TL review Design    Học viên làm       Pass → Done
 ```
 
 ### Bước 1 – Requirements (PO giao)
@@ -34,13 +34,14 @@ Học viên **đóng vai Backend Developer** trong team dự án **ShopVN**. M�
 - **Nội dung:** User story, acceptance criteria, business rules
 - **Dev cần làm:** Đọc kỹ, hỏi PO nếu chưa rõ, **không code khi chưa hiểu requirement**
 
-### Bước 2 – Design (Tech Lead thiết kế)
+### Bước 2 – Design (Học viên thiết kế)
 
-- **Ai viết:** Giảng viên (Tech Lead)
-- **Ai review:** Học viên (Dev)
-- **File:** `docs/sprints/sprint-XX/02-design.md`
+- **Ai viết:** **Học viên (Dev)**
+- **Ai review:** Giảng viên (Tech Lead)
+- **File học viên:** `docs/hoc-vien/<tên-ban>/design-sprint-XX.md` (hoặc nháp trong sprint folder)
+- **File tham chiếu:** `docs/sprints/sprint-XX/02-design.md` (đáp án — **mở sau khi nộp Design**)
 - **Nội dung:** ERD, API contract, class diagram, sequence diagram
-- **Dev cần làm:** Review design, hiểu entity/repository/service trước khi code
+- **Dev cần làm:** Tự thiết kế từ Requirements → nộp → chỉnh theo feedback TL → rồi mới code
 
 ### Bước 3 – API Tasks (Dev implement)
 
@@ -63,11 +64,11 @@ Học viên **đóng vai Backend Developer** trong team dự án **ShopVN**. M�
 ## 3. Workflow hàng ngày của Dev
 
 ```
-Sáng:  PO/Tech Lead publish Sprint docs (Requirements → Design → Tasks)
+Sáng:  PO publish Requirements
        ↓
-       Dev đọc Requirements + Design
+       Dev đọc Requirements → tự viết Design → TL review
        ↓
-       Dev pick task từ 03-api-tasks.md
+       Dev break task + pick task
        ↓
 Chiều: Dev implement API + unit test
        ↓
@@ -150,7 +151,7 @@ Task chỉ được mark **DONE** khi:
 | Sprint 05 | Cart & Order | Day 13–17 | `day-13` → `day-17` |
 | Sprint 06 | Nâng cao & Deploy | Day 18–22 | `day-18` → `day-22` |
 
-Video bài giảng (`docs/bai-giang/`) = buổi **Tech Lead walkthrough** – giải thích Requirements, Design và demo implement.
+Video bài giảng (`docs/bai-giang/`) = buổi **Tech Lead walkthrough** – review Design học viên, gợi ý và demo khi cần.
 
 ---
 
